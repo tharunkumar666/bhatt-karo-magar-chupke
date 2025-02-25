@@ -5,3 +5,8 @@ export interface Message {
   sender: "user" | "other";
   timestamp: Date;
 }
+
+export interface ChatRoom {
+  id: string;
+  createdAt: Date;
+}
