@@ -2,7 +2,6 @@
 import { cn } from "@/lib/utils";
 import { Message } from "@/types/chat";
 import { format } from "date-fns";
-import { motion } from "framer-motion";
 
 interface ChatMessageProps {
   message: Message;
